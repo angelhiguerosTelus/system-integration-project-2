@@ -1,0 +1,30 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Chat DSU",
+    "version": "1.0.0",
+    "description": "Chat DSU"
+  },
+  "host": "localhost:3030",
+  "paths": {
+    "/messages": {
+      "get": {
+        "summary": "Get all messages in memory.",
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+
+      "delete": {
+        "description": "Delete all messages in memory.",
+        "responses": {
+          "200": {
+            "description": "Messages deleted successfully."
+          }
+        }
+      }
+    }
+  }
+}

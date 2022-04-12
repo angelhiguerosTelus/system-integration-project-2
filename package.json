@@ -1,0 +1,22 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Week 2 starter app",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --env=jsdom"
+  },
+  "author": "Angel Higueros",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "moment": "^2.29.2",
+    "socket.io": "^4.4.1",
+    "swagger-ui": "^4.10.3",
+    "swagger-ui-express": "^4.3.0"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}

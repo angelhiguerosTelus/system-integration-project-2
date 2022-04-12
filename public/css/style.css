@@ -1,0 +1,13 @@
+.container-chat {
+  background-color: #eee;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-body {
+  overflow: auto;
+  position: relative;
+  height: 400px;
+}
